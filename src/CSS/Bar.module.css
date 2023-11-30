@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+#mainContainer{
+    width: 100%;
+    height: 97%;
+}
+
+#buttonContainer
+{
+    flex-flow: row wrap;
+    width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+    margin: auto;
+}
+
+#top_bar
+{
+    /* text */
+    color: #FDF7FF;
+    font-size: 4vmin;
+    width: 100%;
+    right: 0;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    text-shadow: 0vw 0.4vmin 0.25vmin black;
+    text-decoration: none;
+    
+    /* box */
+    position: sticky;
+    top: 0;
+    border: none;
+    background: linear-gradient(0deg, #E396FF 0%, #77E1E9 100%);
+}
+
+#container{
+    width: 90%;
+    margin: auto;
+    text-align: center;
+}
+
+#boton
+{
+    /* text */
+    color: black;
+    font-size: 5.5vmin;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-style: italic;
+    padding-top: 2vmin;
+    padding-bottom: 2vmin;
+    margin-top: 2vmin;
+    margin-bottom: 2vmin;
+    
+    /* box */
+    min-width: 50vmin;
+    background: linear-gradient(0deg, #E396FF 0%, #77E1E9 100%);
+    border: solid;
+    border-radius: 10vmin;
+    border-color: white;
+    border-width: 0.2vmin;
+}
+
+#boton:hover{
+    cursor: pointer;
+    transform: scale(1.04);
+    background: linear-gradient(0deg, #b879cf 0%, #63bbc2 100%);
+}

@@ -1,0 +1,30 @@
+.ButtonsWrapper {
+    width : 100vw;
+    height: 100vh;
+    box-sizing: border-box;
+    text-align: center;
+    padding: 32px;
+}
+
+.button {
+    width: 25%;
+    height: 15%;
+    box-shadow: 0px 5px 10px #a3a3a3;
+    display: inline-block;
+    outline: none;
+    margin: 32px 16px;
+    font-size: 20px;
+    box-sizing: border-box;
+    padding: 8px;
+    background: linear-gradient(0deg, #E396FF 0%, #77E1E9 100%);
+    border: solid;
+    border-radius: 10vmin;
+    border-color: white;
+    border-width: 0.2vmin;
+}
+
+.button:hover{
+    cursor: pointer;
+    transform: scale(1.04);
+    background: linear-gradient(0deg, #b879cf 0%, #63bbc2 100%);
+}

@@ -1,0 +1,11 @@
+.TableWrapper{
+    width: auto;
+    height: auto;
+    display: inline-block;
+    padding: 16px;
+    border: 3px solid cyan; 
+    border-radius: 30px;
+    box-sizing: border-box;
+    color: white;
+}
+

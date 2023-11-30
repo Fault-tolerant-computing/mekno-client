@@ -1,0 +1,31 @@
+.PostWrapper{
+    display: inline-block;
+    background-color: white;
+    width: auto;
+    height: auto;
+    box-sizing: border-box;
+    padding: 16px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.PostWrapper > input {
+    margin-bottom: 16px;
+    width: 45%;
+    font-size: 18px;
+    border-radius: 8px;
+    border: 1px solid #c0c0c0;
+    padding: 8px 16px;
+}
+
+.PostWrapper > button {
+    background: linear-gradient(to bottom, #5ADBFF, #F42272);
+    outline: none;
+    box-shadow: 0px 2px 10px #aeaeae;
+    cursor: pointer;
+    height: auto;
+    border: none;
+    border-radius: 8px;
+    font-size: 18px;
+    padding: 8px;
+}

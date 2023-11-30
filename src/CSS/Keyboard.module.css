@@ -1,0 +1,65 @@
+.container{
+    width: 1100px;
+    height: 400px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 10px;
+    margin: auto;
+    margin-top: 5%;
+    border-radius: 15px;
+    border: white solid;
+    position: relative;
+}
+
+.keyboard{
+    width: 1160px;
+    height: 350px;
+    margin: auto;
+}
+
+.row{
+    display: flex;
+}
+
+.key{
+    width: 60px;
+    height: 60px;
+    border-radius: 15px;
+    border: white solid;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.triggered{
+    background-color: #426f94;
+    box-shadow: 0 0 10px #426f94, 0 0 40px #426f94, 0 0 80px #426f94;
+}
+
+.capsl{
+    width: 120px;
+}
+
+.large{
+    width: 135px;
+}
+
+.XL{
+    width: 350px;
+}
+
+.tab{
+    width: 95px;
+}
+
+.wider{
+    width: 180px;
+}
+
+.normal{
+    width: 90px;
+}

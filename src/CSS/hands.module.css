@@ -1,0 +1,116 @@
+.container{
+    display: flex;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.leftHand{
+    position: relative;
+    margin-left: 100px;
+    margin-top: 100px;
+    width: 379px;
+    height: 425px;
+}
+
+.rightHand{
+    position: relative;
+    margin-left: 200px;
+    margin-top: 100px;
+    width: 379px;
+    height: 425px;
+}
+
+.lPinky{
+    position: absolute;
+    left: 0;
+    margin-top: 114px;
+    filter: opacity(30%);
+}
+
+.lRing{
+    position: absolute;
+    left: 0;
+    margin-left: 65px;
+    margin-top: 40px;
+    filter: opacity(30%);
+}
+
+.lThumb{
+    position: absolute;
+    right: 0;
+    margin-top: 226px;
+    margin-right: 1px;
+    filter: opacity(30%);
+}
+
+.lIndex{
+    position: absolute;
+    right: 0;
+    margin-top: 48px;
+    margin-right: 70px;
+    filter: opacity(30%);
+}
+.lPalm{
+    position: absolute;
+    margin-left: 12px;
+    bottom: 0;
+    left: 0;
+    filter: opacity(30%);
+}
+
+.lMiddle{
+    position: absolute;
+    right: 0;
+    margin-right: 163px;
+    filter: opacity(30%);
+}
+
+
+.rPinky{
+    position: absolute;
+    right: 0;
+    margin-top: 113px;
+    filter: opacity(30%);
+}
+
+.rRing{
+    position: absolute;
+    right: 0;
+    margin-right: 66px;
+    margin-top: 40px;
+    filter: opacity(30%);
+}
+
+.rThumb{
+    position: absolute;
+    left: 0;
+    margin-top: 227px;
+    filter: opacity(30%);
+}
+
+.rIndex{
+    position: absolute;
+    left: 0;
+    margin-top: 49px;
+    margin-left: 69px;
+    filter: opacity(30%);
+}
+.rPalm{
+    position: absolute;
+    margin-right: 13px;
+    bottom: 0;
+    right: 0;
+    filter: opacity(30%);
+}
+
+.rMiddle{
+    position: absolute;
+    left: 0;
+    margin-left: 162px;
+    filter: opacity(30%);
+}
+
+.selected{
+    filter: drop-shadow(0 0 10px #4d6da7);
+    
+}

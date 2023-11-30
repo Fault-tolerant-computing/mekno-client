@@ -1,0 +1,9 @@
+.container
+{
+    color: white;
+    background-color: #838FA8;
+    border-radius: 10%;
+    border: 1px;
+    border-style: solid; 
+    border-color: black;
+}

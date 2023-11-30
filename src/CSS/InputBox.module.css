@@ -1,0 +1,76 @@
+.InputBox{
+    position: relative;
+    width: auto;
+    height: auto;
+    padding: 5% 25%;
+}
+
+#InputArea {
+    font-size: 1px;
+    color:#282c34;
+    width: 100%;
+    height: 80%;
+    background: #282c34;
+    border: none; 
+    outline: none;
+    display: hidden;
+    resize: none;
+    position: fixed;
+    top: 10%;
+    left: 0;
+}
+
+.textDisplay{
+    width: 1120px;
+    height: auto;
+    padding: 10px 40px;
+    margin: auto;
+    border-radius: 15px;
+    border: gray solid;
+    border-width: 3px;
+    text-align: justify;
+    position: relative;
+}
+
+.character{
+    font-size: 40px;
+    text-align: center;
+}
+
+.timerInfo{
+    font-size: 35px;
+    width: 350px;
+    text-align: left;
+    margin-top: 10%;
+    padding-left: 30px;
+    color:  #527b9c;
+    position: relative;
+}
+
+.wrong{
+    color: #d12e2e;
+    text-decoration: underline;
+}
+
+.correct{
+    color: #5ec23c;
+}
+
+.defaultColor{
+    color:gray;
+}
+
+.infoContainer{
+    display: inline-flex;
+}
+
+.compContainer{
+    height: auto;
+    transform: scale(0.5);
+    position: relative;
+}
+
+#fullContainer{
+    position: relative;
+    left: 0%;
+}

@@ -1,0 +1,128 @@
+.lessonDiv{
+    width: 100vw;
+    height: 100vh;
+}
+
+.mainContainer{
+    width: 100%;
+    height: 100%;
+}
+
+
+.explanationWrapper{
+    width: 90%;
+    height: 90%;
+    border: 3px solid #CCC;
+    border-radius: 8px;
+    margin: auto;
+    box-sizing: border-box;
+    
+}
+
+.explanationWrapper > p{
+    color: gray;
+    font-size: 5.5vmin;
+    margin: 0;
+    text-align: center;
+    padding: 16px;
+}
+
+.explanationContainer{
+    width: 100%;    
+    height: auto;
+    text-align: center;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+
+}
+
+.goExercise{
+    color: black;
+    font-size: 3.5vmin;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-style: italic;
+    
+    padding-top: 2vmin;
+    padding-bottom: 2vmin;
+    margin-top: 2vmin;
+    margin-bottom: 2vmin;
+    
+    /* box */
+    min-width: 46vmin;
+    background: linear-gradient(0deg, #E396FF 0%, #77E1E9 100%);
+    border: solid;
+    border-radius: 10vmin;
+    border-color: white;
+    border-width: 0.2vmin;
+    outline: none;
+}
+
+.goExercise:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+.inLesson{
+    color: black;
+    font-size: 3.5vmin;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-style: italic;
+    
+    padding-top: 2vmin;
+    padding-bottom: 2vmin;
+    margin-top: 2vmin;
+    margin-bottom: 2vmin;
+    margin-right: 2vmin;
+    
+    /* box */
+    min-width: 46vmin;
+    background: linear-gradient(0deg, #E396FF 0%, #77E1E9 100%);
+    border: solid;
+    border-radius: 10vmin;
+    border-color: white;
+    border-width: 0.2vmin;
+    outline: none;
+}
+
+.inLesson:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+.goMenu{
+    color: black;
+    font-size: 3.5vmin;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-style: italic;
+    
+    padding-top: 2vmin;
+    padding-bottom: 2vmin;
+    margin-top: 2vmin;
+    margin-bottom: 2vmin;
+    margin-right: 2vmin;
+    
+    /* box */
+    min-width: 46vmin;
+    background: linear-gradient(0deg, #E396FF 0%, #77E1E9 100%);
+    border: solid;
+    border-radius: 10vmin;
+    border-color: white;
+    border-width: 0.2vmin;
+    outline: none;
+}
+
+.goMenu:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+#finalBottonContainer{
+    display: flex;
+    flex-flow: column;
+    width: 20%;
+    margin: auto;
+}
